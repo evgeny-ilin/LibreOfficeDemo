@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="program">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../../Program Files/LibreOffice/program" />
+    </CLASSES>
+    <JAVADOC />
+    <NATIVE>
+      <root url="file://$PROJECT_DIR$/../../../../Program Files/LibreOffice/program" />
+    </NATIVE>
+    <SOURCES />
+  </library>
+</component>
