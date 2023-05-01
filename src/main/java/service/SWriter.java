@@ -404,7 +404,7 @@ public class SWriter  {
             com.sun.star.beans.PropertyValue [] szEmptyArgs =
                 new com.sun.star.beans.PropertyValue [0];
             //String strDoc = "private:factory/swriter";
-            String strDoc = "file://" + SWriter.class.getResource("CV.docx").getPath();
+            String strDoc = "file://" + SWriter.class.getResource("/CV.docx").getPath();
 
             xComp = xCLoader.loadComponentFromURL(strDoc, "_blank", 0, szEmptyArgs);
             xDoc = UnoRuntime.queryInterface(com.sun.star.text.XTextDocument.class,
